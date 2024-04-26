@@ -4,7 +4,7 @@
   >
     <div class="container flex-lg-row flex-nowrap align-items-center">
       <div class="navbar-brand w-100">
-        <a routerLink="/" routerLinkActive="router-link-active">
+        <a [routerLink]='"."' [fragment]="'home'"  routerLinkActive="router-link-active">
           <img
             class="logo-dark"
             src="./assets/img/logo-purple.png"
@@ -35,18 +35,18 @@
         </div>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" routerLink="/">WHAT WE DO?</a>
+            <a class="nav-link" [routerLink]='"."' [fragment]="'what-we-do'">WHAT WE DO?</a>
 
             <!--/.dropdown-menu -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/">CHOOSE US?</a>
+            <a class="nav-link" [routerLink]='"."' [fragment]="'why-choose-us'">CHOOSE US?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/">SOLUTIONS</a>
+            <a class="nav-link" [routerLink]='"."' [fragment]="'our-solutions'">SOLUTIONS</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" routerLink="/">CASE STUDIES</a>
+            <a class="nav-link dropdown-toggle" [routerLink]='"."' [fragment]="'case-studies'">CASE STUDIES</a>
             <ul class="dropdown-menu">
               <li class="nav-item">
                 <a class="dropdown-item" routerLink="/">CASE STUDIES 1</a>
@@ -57,12 +57,12 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/">WHO ARE WE?</a>
+            <a class="nav-link" routerLink="/who-are-we-1">WHO ARE WE?</a>
 
             <!--/.dropdown-menu -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/">WHO ARE WE?</a>
+            <a class="nav-link" routerLink="/who-are-we-2">WHO ARE WE?</a>
 
             <!--/.dropdown-menu -->
           </li>

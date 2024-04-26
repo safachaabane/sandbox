@@ -20,6 +20,8 @@ import { OurTeamComponent } from './Home/our-team/our-team.component';
 import { TestimonyComponent } from './Home/testimony/testimony.component';
 import { FooterComponent } from './footer/footer.component';
 import { PricingComponent } from './Home/pricing/pricing.component';
+import { WhatAreWe1Component } from './Pages/what-are-we1/what-are-we1.component';
+import { WhatAreWe2Component } from './Pages/what-are-we2/what-are-we2.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { PricingComponent } from './Home/pricing/pricing.component';
     TestimonyComponent,
     FooterComponent,
     PricingComponent,
+    WhatAreWe1Component,
+    WhatAreWe2Component,
   ],
   imports: [
     BrowserAnimationsModule,

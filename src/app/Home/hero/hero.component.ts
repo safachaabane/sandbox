@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 export class HeroComponent {
   customOptions: any = {
     loop: true,
-    margin: 10,
+    margin: 0,
     autoplay: true,
     responsiveClass: true,
-    navText: ['Previous', 'Next'],
     responsive: {
       0: {
         items: 1,
@@ -22,7 +21,7 @@ export class HeroComponent {
         items: 1,
       },
     },
-    nav: true,
+    nav: false,
   };
   constructor() {}
 }

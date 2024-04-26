@@ -1,3 +1,4 @@
+@if (data) {
 <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-17">
   <div class="col-lg-7">
     <figure>
@@ -12,10 +13,10 @@
   <!--/column -->
   <div class="col-lg-5">
     <h2 class="fs-15 text-uppercase text-primary mb-3">
-      Pourquoi nous choisir?
+      {{ data["WhyChooseUs"].title }}
     </h2>
     <h3 class="display-4 mb-7">
-      Nous apportons des solutions pour faciliter la vie de nos clients.
+      {{ data["WhyChooseUs"].subtitle }}
     </h3>
     <div class="accordion accordion-wrapper" id="accordionExample">
       <div class="card plain accordion-item">
@@ -119,3 +120,6 @@
   </div>
   <!--/column -->
 </div>
+}@else {
+<p>fetch data !</p>
+}

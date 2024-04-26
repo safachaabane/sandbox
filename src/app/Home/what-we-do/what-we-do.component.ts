@@ -9,6 +9,6 @@ import { DataService } from '../../data.service';
 export class WhatWeDoComponent {
   data: any;
   constructor(data: DataService) {
-    this.data = data;
+    this.data = data.data;
   }
 }

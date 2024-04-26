@@ -1,12 +1,11 @@
-@if (data["WhatWeDo"]) {
+@if (data) {
 <div class="row text-center">
   <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
     <h2 class="fs-15 text-uppercase text-primary mb-3">
-      {{ data["WhatWeDo"].row?.title }}
+      {{ data["WhatWeDo"].row.text }}
     </h2>
     <h3 class="display-4 mb-10 px-xl-10">
-      Le service que nous offrons est spécifiquement conçu pour répondre à vos
-      besoins.
+      {{ data["WhatWeDo"].row.description }}
     </h3>
   </div>
   <!-- /column -->
@@ -24,23 +23,24 @@
     style="top: -0.5rem; left: -2.5rem; z-index: 0"
   ></div>
   <div class="row gx-md-5 gy-5 text-center">
+    @for (item of data["WhatWeDo"].cards; track $index) {
     <div class="col-md-6 col-xl-3">
       <div class="card">
         <div class="card-body">
           <div class="icon btn btn-circle btn-lg btn-primary disabled mb-3">
-            <i class="uil uil-phone-volume"></i>
+            <i class="uil {{ item.icon }}"></i>
           </div>
-          <h4>Support 24/7</h4>
+          <h4>{{ item.title }}</h4>
           <p class="mb-2">
-            Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-            porta gravida at eget metus cras justo.
+            {{ item.description }}
           </p>
-          <a href="#" class="more hover link-primary">En savoir plus</a>
+          <a href="#" class="more hover link-primary">{{ item.link }}</a>
         </div>
         <!--/.card-body -->
       </div>
       <!--/.card -->
     </div>
+    }
     <!--/column -->
 
     <!--/column -->

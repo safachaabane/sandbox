@@ -15,6 +15,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StatisticComponent } from './Home/statistic/statistic.component';
 import { CaseStudiesComponent } from './Home/case-studies/case-studies.component';
+import { HowAreWeComponent } from './Home/how-are-we/how-are-we.component';
+import { OurTeamComponent } from './Home/our-team/our-team.component';
+import { TestimonyComponent } from './Home/testimony/testimony.component';
+import { FooterComponent } from './footer/footer.component';
+import { PricingComponent } from './Home/pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,11 @@ import { CaseStudiesComponent } from './Home/case-studies/case-studies.component
     OurSolutionsComponent,
     StatisticComponent,
     CaseStudiesComponent,
+    HowAreWeComponent,
+    OurTeamComponent,
+    TestimonyComponent,
+    FooterComponent,
+    PricingComponent,
   ],
   imports: [
     BrowserAnimationsModule,

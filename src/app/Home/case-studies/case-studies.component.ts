@@ -12,7 +12,6 @@ export class CaseStudiesComponent {
     dots: true,
     autoplay: false,
     responsiveClass: true,
-    navText: ['Previous', 'Next'],
     responsive: {
       0: { items: 1 },
       768: { items: 2 },

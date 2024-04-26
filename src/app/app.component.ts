@@ -5,8 +5,8 @@ import {
   transition,
   trigger,
 } from '@angular/animations';
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -32,17 +32,10 @@ import { Component, OnInit } from '@angular/core';
       transition('closed => open', [animate('0.5s')]),
     ]),
   ],
+  providers: [DataService],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'sandBoxApp';
-  data: any;
 
-  constructor(private http: HttpClient) {}
-
-  ngOnInit(): void {
-    this.http.get('./assets/data.json').subscribe((jsonData) => {
-      this.data = jsonData;
-      console.log(jsonData);
-    });
-  }
+  constructor(data: DataService) {}
 }

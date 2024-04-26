@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { DataService } from '../../data.service';
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css',
 })
 export class HeroComponent {
+  data: any;
   customOptions: any = {
     loop: true,
     margin: 10,
@@ -24,5 +26,7 @@ export class HeroComponent {
     },
     nav: true,
   };
-  constructor() {}
+  constructor(data: DataService) {
+    this.data = data.data;
+  }
 }

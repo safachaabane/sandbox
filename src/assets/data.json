@@ -1,0 +1,73 @@
+{
+  "Hero": {
+    "title": "Crafting project specific solutions with expertise.",
+    "desc": "We’re a creative company that focuses on establishing long-term relationships with customers."
+  },
+  "WhatWeDo": {
+    "row": {
+      "text": "What do we do?",
+      "description": "The service we offer is specifically designed to meet your needs."
+    },
+    "cards": [
+      {
+        "icon": "uil-phone-volume",
+        "title": "24/7 Support",
+        "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+        "link": "Learn More"
+      },
+      {
+        "icon": "uil-shield-exclamation",
+        "title": "Secure Payments",
+        "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+        "link": "Learn More"
+      },
+      {
+        "icon": "uil-laptop-cloud",
+        "title": "Daily Updates",
+        "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+        "link": "Learn More"
+      },
+      {
+        "icon": "uil-chart-line",
+        "title": "Market Research",
+        "description": "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.",
+        "link": "Learn More"
+      }
+    ]
+  },
+  "WhyChooseUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "We bring solutions to make life easier for our clients.",
+    "features": [
+      {
+        "title": "Professional Design",
+        "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+      },
+      {
+        "title": "Top-Notch Support",
+        "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+      },
+      {
+        "title": "Header and Slider Options",
+        "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel."
+      }
+    ]
+  },
+  "Solutions": {
+    "title": "OUR SOLUTIONS",
+    "subtitle": "We make your spending stress-free for you to have the perfect control.",
+    "desc": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.",
+    "features": [
+      "Aenean quam ornare. Curabitur blandit.",
+      "Etiam porta euismod malesuada mollis.",
+      "Nullam quis risus eget urna mollis ornare.",
+      "Vivamus sagittis lacus vel augue rutrum."
+    ]
+  },
+  "statistic": [
+    { "number": "7518", "name": "Completed Projects" },
+    { "number": "3472", "name": "Happy Customers" },
+    { "number": "2184", "name": "Expert Employees" },
+    { "number": "4523", "name": "Awards Won" }
+  ]
+}
